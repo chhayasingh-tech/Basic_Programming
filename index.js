@@ -8,5 +8,10 @@ function prime(num){
 
 return true;// prime
 }
+function evenOdd(num){
+    return num % 2===0; // returns true if the number is even ,false if odd
+}
 console.log(prime(2)); // true
 console.log(prime(15)); // false
+console.log(evenOdd(1));//false
+console.log(evenOdd(2));//true
